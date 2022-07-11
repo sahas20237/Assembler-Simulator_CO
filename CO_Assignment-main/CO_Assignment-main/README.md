@@ -1,13 +1,13 @@
-# CO M21 Assignment
-Starter repository for Computer Organization, Monsoon 2021 semester, assignment at IIITD
+# ASM ASSEMBLER SIMULATOR
+Python script written to interpret and simulate asm code written using the OP Codes and Registers given in the Problem Statement
 
-## Adding code
-* Add the assembler code in the `Simple-Assembler` directory. Add the commands to execute the assembler in `Simple-Assembler/run`.
-* Add the simulator code in the `SimpleSimulator` directory. Add the commands to execute the assembler in `SimpleSimulator/run`.
-* Make sure that both the assembler and the simulator read from `stdin`.
-* Make sure that both the assembler and the simulator write to `stdout`.
+## Simple Assembler
+Converts the given ASM script to binary
 
-## How to evaluate
+## Simple Simulator
+Uses the converted ASM script to Binary to simulate what it was originally intented to by dumping the values of all registers after processing every command, futher it also provides a graph plotting memory accessed vs cycle count
+
+## How to evaluate/Run
 * Go to the `automatedTesting` directory and execute the `run` file with appropiate options passed as arguments.
 * Options available for automated testing:
 	1. `--verbose`: Prints verbose output
